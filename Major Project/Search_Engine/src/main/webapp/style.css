@@ -1,0 +1,141 @@
+body {
+   text-align: center;
+ }
+
+ /* Navigation Bar */
+  
+ .navbar {
+   padding: 0 0 1.0rem;
+   background-color: #aec2fd;
+ }
+ 
+ .navbar-brand {
+   font-family: "Ubuntu";
+   color:white;
+   font-size: 2.5rem;
+   font-weight: bold;
+   margin-left: 4%;
+ }
+ 
+ .nav-item {
+   padding: 0 18px;
+ }
+ 
+ .nav-link {
+   font-size: 1.2rem;
+   font-family: "Montserrat-Light";
+ }
+ .navbar-nav{
+   margin-right: 2%;
+ }
+
+/* Headings */
+  
+.big-heading {
+   font-family: "Montserrat-Black";
+   font-size: 3.5rem;
+   line-height: 1.5;
+   margin-top: 8%;
+ }
+ .bigText-style {
+   color: #739af1;
+ }
+ 
+
+/* Buttons */
+.download-button {
+   margin: 5% 3% 5% 0;
+ }
+
+
+ #title {
+   background-color: white;
+   color: black;
+   text-align: left;
+   margin-bottom:4%;
+   
+ }
+ .maintext{
+margin-top: 4%;
+ }
+
+ #title .container-fluid {
+   padding: 3% 5% 7%;
+ }
+
+ /* Title Image */
+  
+ .title-image {
+   width: 120%;
+   right: 30%;
+ }
+
+
+  /* Footer Section */
+  .white-section {
+   background-color: rgb(46, 48, 48);
+   color: white;
+   margin-bottom: 0;
+ }
+
+ .footer{
+   color: white;
+ }
+ 
+ .social-icon {
+   margin: 20px 25px;
+ }
+
+ .social-icon:hover {
+  color: #7398f0;
+  size: 10px;
+ }
+
+ .bottom {
+   margin-bottom: 0%;
+ }
+ .copyright{
+   margin: 0;
+   padding-bottom: 1%;
+ }
+
+
+ @media (max-width: 1028px) {
+  
+   #title {
+     text-align: center;
+   }
+ }
+
+ /* Form Input Types */
+ form {
+   padding: 15% 20% 35% 30%;
+}
+
+input[type="text"]
+  {
+    background:  #aec2fd;
+      border: none;
+      border-radius: 50px; 
+      fill-opacity: white;
+      box-shadow: #25050a;
+      margin-bottom: 5%;
+      padding: 6%;
+  }
+
+  input[type="submit"]
+  {
+    border-radius: 50px;
+    color: #fff;
+  }
+
+  input[type="text"]:hover
+  {
+    background-color:  whitesmoke;
+    color: green;
+  }
+
+  input[type="submit"]:hover
+  {
+    color: rgb(70, 216, 70);
+  }

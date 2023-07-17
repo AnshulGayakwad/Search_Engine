@@ -1,0 +1,94 @@
+body {
+    text-align: center;
+  }
+ 
+  /* Navigation Bar */
+   
+  .navbar {
+    padding: 0 0 1.0rem;
+    background-color: #aec2fd;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    color:white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 4%;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+  }
+  .navbar-nav{
+    margin-right: 2%;
+  }
+
+  /* Form */
+  .maintext{
+    margin-top: 4%;
+     }
+
+     /* Form Input Types */
+ 
+ 
+ input[type="text"]
+   {
+     background:  #aec2fd;
+       border: none;
+       border-radius: 50px; 
+       fill-opacity: white;
+       box-shadow: #25050a;
+       margin-bottom: 5%;
+       padding: 6%;
+   }
+ 
+   input[type="submit"]
+   {
+     border-radius: 50px;
+     color: #fff;
+   }
+ 
+   input[type="text"]:hover
+   {
+     background-color:  whitesmoke;
+     color: green;
+   }
+ 
+   input[type="submit"]:hover
+   {
+     color: rgb(70, 216, 70);
+   }
+
+  /* Footer Section */
+  .white-section {
+    background-color: rgb(46, 48, 48);
+    color: white;
+    margin-bottom: 0;
+  }
+ 
+  .footer{
+    color: white;
+  }
+  
+  .social-icon {
+    margin: 20px 25px;
+  }
+ 
+  .social-icon:hover {
+   color: #7398f0;
+   size: 10px;
+  }
+ 
+  .bottom {
+    margin-bottom: 0%;
+  }
+  .copyright{
+    margin: 0;
+    padding-bottom: 1%;
+  }
